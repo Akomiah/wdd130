@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {background-color: steelblue; padding: 10px;}
 nav a {color: white; display: block; padding: 20px;}
 h1 {color: steelblue;}
@@ -10,4 +15,17 @@ img {
 }
 p {
     padding: 10px;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 5px solid rgba (0,0,0,.1);
+    padding: 1rem;
+    background-color: green;
+    color: light blue;
+}
+
+aside {
+    width: 150em;
+    text-align: center;
 }
