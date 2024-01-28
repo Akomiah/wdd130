@@ -43,13 +43,12 @@ aside h2 {
     left: 150px;
 }
 main img {
-    float: right;
-}
-main img {
     width: 150px;
     height: auto;
 }
-
+main img {
+    float: right;
+}
 footer {
     margin-top: 15px;
     border-top: 1px solid #2b0a0a;
