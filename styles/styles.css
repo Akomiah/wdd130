@@ -37,7 +37,7 @@ aside {
     text-align: center;
 }
 aside h2 {
-    position: relative;
+    position: top;
     top: 47px;
     left: 150px;
 }
