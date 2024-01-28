@@ -9,7 +9,6 @@ nav {
 }
 nav a {
     color: white;
-    display: black;
     padding: 20px;
 }
 h1 {
@@ -18,7 +17,7 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: steelblue solid 1px;
     padding: 2px;
     box-shadow: 0 0 30px;
 }
@@ -31,7 +30,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    border: rgba(0, 0, 0, 0.2) solid 1px;
     padding: 1rem;
     background-color: #9ac9ee;
     color: #333;
@@ -59,7 +58,7 @@ footer {
 
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: rgba(0, 0, 0, 0.1) solid 1px;
     padding: 1rem;
     background-color: #9ac9ee;
     color: #333; 
