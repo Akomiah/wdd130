@@ -1,45 +1,45 @@
 /* Add @import for the chosen fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&family=Lobster&display=swap');
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 header {
     display: list-item;
     grid-template-columns: auto;
 }
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
-
-main section {
-    text-align: center;
-}
-
-main section img {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: white;
-    font-family: 'Roboto', 'Montserrat', 'Arial', sans-serif; /* Backup fonts */
-    font-size: 22px; /* Adjusted default font size */
-    margin: 0; /* Reset margin to zero */
-    padding: 0; /* Reset padding to zero */
-}
-
-h2 {
-    margin: 0;
-}
+    margin: 100px auto;
+  }
+  
+  .parent {
+    width: 500px;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .child {
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  .one {
+    background-color: powderblue;
+  }
+  
+  .two {
+    background-color: royalblue;
+  }
+  
+  .three {
+    background-color: sienna;
+  }
+  
+  .four {
+    background-color: slateblue;
+  }
