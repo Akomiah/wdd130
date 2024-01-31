@@ -6,24 +6,8 @@
     width: 100%;
     height: auto;
 }
-header {
-    display: list-item;
-    grid-template-columns: auto;
+font {
+    font-weight: 100;
+    font-style: italic;
+    font-family: cursive;
 }
-body {
-    margin: 100px auto;
-  }
-  
-  .parent {
-    width: 500px;
-    border: 1px solid red;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .child {
-    border-radius: 10%;
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-  }
