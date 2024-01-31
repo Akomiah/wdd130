@@ -1,25 +1,45 @@
-@import url(https:fonts.googleapis.com/css?family=OpenSans);
-body{
-    font-family: 'open Sans',serif;
+/* Add @import for the chosen fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&family=Lobster&display=swap');
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
 }
-:root {
-    background: rebeccapurple;
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 body {
-    color: black;
+    background-color: white;
+    font-family: 'Roboto', 'Montserrat', 'Arial', sans-serif; /* Backup fonts */
+    font-size: 22px; /* Adjusted default font size */
+    margin: 0; /* Reset margin to zero */
+    padding: 0; /* Reset padding to zero */
 }
-h1 {
-    color: blueviolet;
-}
-a {
-    text-decoration: none;
-}
-html {
-    max-width: 1200px;
-    margin: auto;
-}
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+
+h2 {
+    margin: 0;
 }
