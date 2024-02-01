@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: 16px;
+    fon
+}
 nav {
     background-color: lime;
     padding: 10px;
