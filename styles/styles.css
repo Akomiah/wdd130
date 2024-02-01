@@ -70,6 +70,11 @@ footer {
     background-color: #9ac9ee;
     color: #333; 
 }
+
+.indent {
+    padding-left: 2rem;
+}
+
 aside {
     width: 20em;
     text-align: center;
