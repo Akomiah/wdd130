@@ -90,7 +90,7 @@ nav a {
 }
 .grid {
     display: grid;
-    align-items: center;
+    align-items: top;
 }
 main {
     grid-column: 2/3;
