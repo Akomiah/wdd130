@@ -37,7 +37,7 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: lime solid 2px;
-    padding: relative;
+    padding: top;
     background-color: #9ac9ee;
     color: #333;
     text-align: center;
