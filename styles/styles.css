@@ -31,27 +31,17 @@ main img {
     border: 1px solid steelblue;
     box-shadow: 0 0 30px lightgreen;
 }
-
+/* stop */
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: red;
-    background-color: steelblue;
-    color: black;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 300px;
     height: auto;
 }
-
-main img {
-    width: 150px;
-    height: auto;
-}
-
-p {padding: 0;}
 
 footer {
     margin: 25px;
