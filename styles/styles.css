@@ -38,6 +38,10 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
+p {
+    margin: 1rem;
+}
+
 aside {
     width: 20rem;
     text-align: center;
@@ -61,4 +65,8 @@ footer {
     padding: 1rem;
     background-color: rgb(131, 186, 231);
     color: #000;
+}
+
+.indent {
+    padding-left: 1rem;
 }
