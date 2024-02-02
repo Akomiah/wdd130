@@ -10,7 +10,7 @@ nav {
     padding: 10px;
 }
 nav a {
-    color: steelblue;
+    color: rgba(6, 11, 15, 0.548);
     padding: 20px;
     display: block;
 }
