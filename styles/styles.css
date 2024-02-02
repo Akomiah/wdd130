@@ -35,7 +35,6 @@ main img {
 aside {
     width: 20rem;
     text-align: center;
-    position: relative;
 }
 
 aside img {
@@ -47,4 +46,13 @@ footer {
     margin: 25px;
     border-top: 1px solid #2b0a0a;
     text-align: center;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
 }
