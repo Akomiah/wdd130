@@ -83,6 +83,9 @@ header, footer {
     max-width: 840px;
     margin: 0 auto;
 }
+header {
+    display: block;
+}
 nav {
     background-color: steelblue;
     padding: 1rem;
