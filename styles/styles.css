@@ -62,7 +62,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
+    padding: 5px;
     background-color: rgb(131, 186, 231);
     color: #000;
 }
@@ -72,7 +72,7 @@ footer {
 }
 
 header, footer {
-    max-width: 840px;
+    max-width: 840rem;
     margin: auto;
 }
 
@@ -100,7 +100,7 @@ nav a {
 
 main {
     grid-column: 2/3;
-    margin: 1rem;
+    margin: 1px;
 }
 
 aside {
