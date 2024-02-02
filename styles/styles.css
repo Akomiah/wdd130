@@ -1,6 +1,7 @@
 main {
     max-width: 840px;
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -9,15 +10,19 @@ aside {
     color: brown;
     text-align: center;
 }
+
 aside img {
     width: 300px;
     height: auto;
 }
+
 main img {
     width: 150px;
     height: auto;
 }
+
 p {padding: 0;}
+
 footer {
     margin: 25px;
     border-top: 1px solid #2b0a0a;
