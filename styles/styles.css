@@ -10,16 +10,26 @@ nav {
     padding: 10px;
 }
 nav a {
-    color: rgba(8, 8, 8, 0.521);
+    color: white;
     padding: 20px;
+    display: block;
 }
+
 h1 {
     color: rgba(31, 17, 223, 0.733);
+    padding: 5rem;
 }
 
 
 main {
     max-width: 840px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px lightgreen;
 }
 
 aside {
