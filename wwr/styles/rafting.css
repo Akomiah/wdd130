@@ -181,7 +181,7 @@
     text-align: top;
   }
   .logo {
-    background: left / cover;
+    background: left / cover url(Akomiah/wdd130/wwr/images/Background.jpeg);
     display: flex;
     height: 120px;
     align-items: center;
