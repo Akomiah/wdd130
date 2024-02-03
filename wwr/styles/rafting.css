@@ -180,4 +180,23 @@
     padding: 3px;
     text-align: top;
   }
+  .logo {
+    background: left / cover url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailytoursinalanya.com%2Falanya-only-rafting&psig=AOvVaw3Kbl5FYD3Ie2JUbo6mp-PU&ust=1707070228114000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCv77Pij4QDFQAAAAAdAAAAABAJ');
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font:
+      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+      fantasy;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+  }
   
+  header > h1 {
+    margin-bottom: 0;
+  }
+  
+  header > time {
+    font: italic 0.7rem sans-serif;
+  }
