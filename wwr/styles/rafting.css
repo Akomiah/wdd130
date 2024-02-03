@@ -164,7 +164,7 @@
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
+    max-width: 220em;
     margin: auto;
   }
   
@@ -174,10 +174,10 @@
   }
   
   figcaption {
-    background-color: #222;
+    background-color: white;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
-    text-align: center;
+    text-align: top;
   }
   
