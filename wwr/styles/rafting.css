@@ -23,9 +23,6 @@
     --nav-hover-background-color: #022668;
   }
   
-  
-  /*  Look around below...but DON'T CHANGE ANYTHING! */
-  
   body {
     max-width: 960px;
     margin: 0 auto;
@@ -95,13 +92,7 @@
     font-weight: 700;
     text-decoration: underline;
   }
- 
-  header {
-    padding: 1em;
-    text-align: center;
-    color: var(--headline-color-on-color);
-    background-color: var(--paragraph-background-color);
-  }
+  
   header > h1, header > h2 {
     color: var(--headline-color-on-color);
   }
