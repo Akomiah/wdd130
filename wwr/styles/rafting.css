@@ -181,7 +181,7 @@
     text-align: top;
   }
   .logo {
-    background: left / cover url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailytoursinalanya.com%2Falanya-only-rafting&psig=AOvVaw3Kbl5FYD3Ie2JUbo6mp-PU&ust=1707070228114000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLCv77Pij4QDFQAAAAAdAAAAABAJ');
+    background: left / cover;
     display: flex;
     height: 120px;
     align-items: center;
