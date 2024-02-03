@@ -95,7 +95,7 @@
     color: var(--paragraph-color-on-color);
   }
   nav {
-    background-color: hsla(0,0%,100%,1);
+    background-color: hsla(0,0%,100%,1 );
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
