@@ -138,6 +138,7 @@
   nav  {
     list-style-type: none;
     display: flex;
+    justify-content: center;
   }
   nav a {
     padding:1em;
