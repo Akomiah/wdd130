@@ -214,7 +214,37 @@
     max-width: 150rem;
     max-height: 250px;
   }
-  nav social {
+  footer {
+    background-color:#d62323;
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
     display: flex;
-    align-items: flex-end;
-  }
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #e6e8ec;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #022668;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.logo {
+    width: 80px;
+}
