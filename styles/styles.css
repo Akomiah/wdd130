@@ -22,7 +22,8 @@ nav a {
 h1 {
     color: blue;
     padding: 5px;
-    border-bottom: #000;
+    border-bottom: outset;
+    border-right-color: darkturquoise;
 }
 
 
