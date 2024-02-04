@@ -28,7 +28,7 @@
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
   }
   img {
     display: block;
@@ -50,10 +50,14 @@
   header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 150px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
+  }
+  header {
+    align-items: center;
+    background-color: lightgray;
   }
   
   .logo img {
