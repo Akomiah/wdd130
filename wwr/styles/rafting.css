@@ -243,9 +243,9 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
-    display: grid;
 }
 
 .logo {
     width: 80px;
+    display: grid;
 }
