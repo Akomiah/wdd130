@@ -211,10 +211,5 @@ footer .social img {
 
 .logo {
     width: 80px;
-    display: grid;
-}
-.socrates-words{
-  display:flex;
-  justify-content: space-evenly;
-  align-items:center;
+    display: inline-flex;
 }
