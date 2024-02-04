@@ -214,3 +214,7 @@
     max-width: 150rem;
     max-height: 250px;
   }
+  nav social {
+    display: flex;
+    align-items: flex-end;
+  }
