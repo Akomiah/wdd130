@@ -215,7 +215,7 @@
     max-height: 250px;
   }
   footer {
-    background-color:#d62323;
+    background-color: lightgray;
     color: #ffffff;
     padding: 25px 50px;
     margin-top: 200px;
@@ -243,6 +243,7 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
+    display: grid;
 }
 
 .logo {
