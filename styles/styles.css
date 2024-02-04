@@ -79,7 +79,7 @@ header, footer {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: hsl(227.08deg 51.4% 51.6% / 85%);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -92,7 +92,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff;
+    color: black;
 }
 
 .grid {
