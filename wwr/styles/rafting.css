@@ -216,7 +216,7 @@ footer .social img {
 
 .herodiv {
 	margin: 10px auto;
-	position: relative; /* If removed, what happens? */
+	position: relative;
 }
 
 .herodiv img {
