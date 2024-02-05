@@ -227,11 +227,8 @@ footer .social img {
 
 .stats {
 	position: absolute;
-	top: 25px;
-	top: 15px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
+	top: 2px;
 	padding: 0.65rem;
-	box-shadow: 0 0 30px #111;
 	opacity: 0.8;
+  text-align: center;
 }
