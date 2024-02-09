@@ -12,6 +12,11 @@ label {
     text-align: center;
   }
 
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+
   form {
     display: flex;
     justify-content: center;
