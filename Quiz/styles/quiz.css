@@ -6,6 +6,9 @@ label {
     text-align: center;
   }
 
+  main {
+    display: table-caption;
+  }
  
   body {
     max-width: 860px;
