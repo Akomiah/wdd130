@@ -47,10 +47,7 @@ label {
     margin-block-start: revert-layer;
     margin-block-end: auto;
 }
-select#q3 {
-    width: -webkit-fill-availabl;
-}
-  
+ 
   button {
     margin-top: 2rem;
   }
