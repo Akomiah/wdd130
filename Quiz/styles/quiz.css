@@ -11,7 +11,7 @@ label {
     font-size: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
-  background-color: rgb(214, 117, 117);
+  background-color: lightsteelblue;
   }
 
   h1 {
@@ -28,6 +28,13 @@ label {
     padding-block: 1rem;
     width: -webkit-fill-available;
   }
+
+  input[type="submit"] {
+    background-color: cadetblue;
+    border-color: crimson;
+    font-size: larger;
+  }
+
 
   p {
     text-size-adjust: auto;
