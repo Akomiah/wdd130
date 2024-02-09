@@ -1,6 +1,8 @@
 label {
     display: block;
     margin-top: 1rem;
+    padding: 3px;
+     border-color: gray;
   }
   
   button {
