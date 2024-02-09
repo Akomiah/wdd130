@@ -17,10 +17,11 @@ label {
     justify-content: center;
   }
 
-  input{
+  input {
     padding-block: 1rem;
-    width: fit-content;
+    width: -webkit-fill-available;
   }
+
   p {
     text-size-adjust: auto;
     text-align: justify;
@@ -29,7 +30,7 @@ label {
     margin-block-end: auto;
 }
 select#q3 {
-    width: fit-content;
+    width: it-webkit-fill-availabl;
 }
   
   button {
