@@ -52,3 +52,8 @@ select#q3 {
   button {
     margin-top: 2rem;
   }
+
+  legend {
+    font-size: xx-large;
+    font-style: italic;
+}
