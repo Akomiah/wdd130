@@ -1,14 +1,13 @@
 label {
-    display: block;
-    margin-top: 1rem;
-    padding: 3px;
-    border-color: rgb(41, 40, 88);
-  }
-  main {
+    display : block;
+    margin-top : 1rem;
+    padding : 3px;
+    border-color : rgb(41, 40, 88);
     display: table-caption;
     text-align: center;
   }
 
+ 
   body {
     max-width: 960px;
     margin: 1em;
