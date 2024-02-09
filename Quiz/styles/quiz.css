@@ -4,6 +4,9 @@ label {
     padding: 3px;
     border-color: rgb(41, 40, 88);
   }
+  main {
+    display: table-caption;
+    text-align: center;
 
   body {
     max-width: 960px;
@@ -15,9 +18,9 @@ label {
   }
 
   h1 {
-    text-align: center;
+    text-align: justify;
     color: black;
-    font-size: xx-large;
+    font-size: x-large;
   }
 
   form {
