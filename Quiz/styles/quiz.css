@@ -30,7 +30,6 @@ label {
 
   input {
     padding-block: 1rem;
-    width: -webkit-fill-available;
   }
 
   input[type="submit"] {
@@ -44,7 +43,6 @@ label {
     text-size-adjust: auto;
     text-align: justify;
     text-transform: inherit;
-    margin-block-start: revert-layer;
     margin-block-end: auto;
 }
  
