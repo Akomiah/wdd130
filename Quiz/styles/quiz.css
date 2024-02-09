@@ -30,7 +30,7 @@ label {
     margin-block-end: auto;
 }
 select#q3 {
-    width: it-webkit-fill-availabl;
+    width: -webkit-fill-availabl;
 }
   
   button {
