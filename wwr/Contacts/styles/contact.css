@@ -98,12 +98,12 @@
   }
   
   figure {
-    border: thin #c0c0c0 solid;
+    border: #12114d solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
     max-width: 220rem;
-    margin: auto;
+    margin: revert-layer;
   }
   
   img {
