@@ -231,7 +231,6 @@ footer .social img {
 }
 section {
   box-sizing: border-box;
-  border: 1px solid blue;
   width: 100%;
   float: left;
 }
