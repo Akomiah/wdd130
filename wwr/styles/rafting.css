@@ -230,3 +230,20 @@ footer .social img {
   width: 400px;
   height: 300px;
 }
+section {
+  box-sizing: border-box;
+  border: 1px solid blue;
+  width: 100%;
+  float: left;
+}
+
+div {
+  margin: 5px;
+  width: 50px;
+  height: 150px;
+}
+
+.right {
+  float: right;
+  background: cyan;
+}
