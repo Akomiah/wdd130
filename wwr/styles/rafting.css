@@ -235,11 +235,6 @@ section {
   float: left;
 }
 
-div {
-  margin: 5px;
-  float: inline-end;
-}
-
 .right {
   float: right;
   background: cyan;
