@@ -226,8 +226,8 @@ footer .social img {
   text-align: center;
 }
 .myimages {
-  width: 400px;
   height: 300px;
+  float: inline-end;
 }
 section {
   box-sizing: border-box;
