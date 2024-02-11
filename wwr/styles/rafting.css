@@ -239,3 +239,6 @@ section {
   float: right;
   background: cyan;
 }
+style {
+  background-image: url(rafting.jpg);
+}
