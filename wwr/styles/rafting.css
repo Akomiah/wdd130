@@ -48,7 +48,6 @@
     grid-template-columns: 300px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    max-width: 1000px;
   }
   header {
     align-items: center;
