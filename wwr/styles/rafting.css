@@ -154,12 +154,7 @@
     max-width: 220rem;
     margin: auto;
   }
-  
-  img {
-    max-width: 220px;
-    max-height: 150px;
-  }
-  
+    
   figcaption {
     background-color: white;
     color: black;
