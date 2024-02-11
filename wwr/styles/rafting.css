@@ -233,12 +233,10 @@ section {
   box-sizing: border-box;
   width: 100%;
   float: left;
+  background-color: #396E94;
 }
 
 .right {
   float: right;
   background: cyan;
-}
-style {
-  background-image: url(rafting.jpg);
 }
