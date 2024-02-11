@@ -232,32 +232,3 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.button-section .container-gif {
-  position: relative;
-  bottom: 80%;
-}
-
-.button-section .container-gif #gif-socrates {
-  transform: translate(-50%);
-  left: 50%;
-  width: 25%;
-  position: absolute;
-  display: none;
-}
-
-.button-section .socrates-words {
-  font-size: 32px;
-  position: relative;
-}
-
-.button-section .socrates-words .hello {
-  position: absolute;
-  left: 15%;
-  top: 17rem;
-}
-
-.button-section .socrates-words .socrates-name {
-  position: absolute;
-  left: 65%;
-  top: 17rem;
-}
