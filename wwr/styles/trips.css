@@ -395,3 +395,17 @@ select {
   height: 15px;
   background-size: contain;
 }
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 5px;
+  background-color: rgb(131, 186, 231 / 13%);
+  color: #000;
+}
+
+aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
