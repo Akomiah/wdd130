@@ -49,6 +49,12 @@
     font-family: Acme, Arial, sans-serif;
   }
   
+  title {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+  }
   nav {
     text-align: right;
   }
