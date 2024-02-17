@@ -214,9 +214,6 @@ select {
 }
 
 .hero-section{
-  width: 80%;
-  height: 100vh;
-  display: flex;
   justify-content: center;
   color: #fff;
 }
@@ -229,12 +226,6 @@ select {
   text-transform: capitalize; 
 }
 
-.hero-section-sub-heading{
-  text-align: center;
-  text-transform: capitalize;
-  margin: 20px 0;
-  font-size: 20px;
-}
 
 .scroll-down-icon{
   position: absolute;
