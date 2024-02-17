@@ -396,7 +396,6 @@ select {
   position: absolute;
   left: -20px;
   top: 2px;
-  background: url('img/pin.png');
   width: 15px;
   height: 15px;
   background-size: contain;
