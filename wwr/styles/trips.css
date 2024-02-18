@@ -432,7 +432,6 @@ aside img {
 }
 
 .flex-container {
-  im
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
