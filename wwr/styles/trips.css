@@ -6,6 +6,10 @@
     --heading-font: "Montserrat", sans-serif;
     --paragraph-font: Georgia, serif;
   }
+
+  main {
+    max-width: 50%;
+  }
   body {
     margin: 1em;
     font-size: 18px;
@@ -401,10 +405,6 @@ aside {
   position: relative;
   grid-column: 1/2;
   grid-row: 1/2;
-}
-
-main {
-  max-width: 840px;
 }
 
 main img {
