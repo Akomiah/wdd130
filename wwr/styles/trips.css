@@ -223,3 +223,12 @@ footer {
   justify-content:space-between;
   align-items: center;
 }
+
+
+.col-sm-4 {
+  position: relative;
+  padding-bottom: 20px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
