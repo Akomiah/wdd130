@@ -19,16 +19,6 @@ header {
   height: auto;
 }
 
-@media (max-width: 767px)
-body {
-    font-size: 16px;
-}
-
-@media (max-width: 767px)
-body {
-    font-size: 16px;
-}
-
 body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -92,20 +82,7 @@ html {
   padding: 75px 0 65px 0;
 }
 
-@media (min-width: 1200px)
-.container {
-    width: 1170px;
-}
 
-@media (min-width: 992px)
-.container {
-    width: 970px;
-}
-
-@media (min-width: 768px)
-.container {
-    width: 750px;
-}
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -126,9 +103,6 @@ div {
   float: right!important;
 }
 
-@media max-width {
-  767
-}
 .explore h2 {
     font-size: 24px;
   }
@@ -141,8 +115,6 @@ div {
     padding-bottom: 24px;
 }
 
-@media max-width { 767px 
-}
 .explore h3 {
     font-size: 36px;
     line-height: 30px;
