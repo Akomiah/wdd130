@@ -290,3 +290,48 @@ a:-webkit-any-link {
   background-color: #EDEDED;
   padding: 20px 0px;
 }
+
+#feature-home {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.feature-wrap {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.row-gray {
+  background-color: #EDEDED;
+  padding: 20px 0px;
+}
+@media (max-width: 767px)
+body > section {
+  padding: 30px 0;
+}
+body > section {
+  padding: 70px 0;
+}
+
+.row-gray .rounded-box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 1px 8px -2px #333;
+  border: none;
+  min-height: 200px;
+  padding: 10px 20px;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+  display: block;
+}
+@media (max-width: 767px)
+body {
+  font-size: 16px;
+}
