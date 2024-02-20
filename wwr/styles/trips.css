@@ -235,11 +235,13 @@ footer {
 }
 
 .review-wrap, .hero-wrap {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.4);
   border: 1px solid #444;
   border-radius: 4px;
   color: #fff;
   padding: 15px;
+  float: right;
+  font-style: italic;
 }
 
 .review-wrap a {
