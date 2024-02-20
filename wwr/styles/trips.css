@@ -215,6 +215,7 @@ figcaption {
 img {
   max-width: 150rem;
   max-height: 132px;
+  float: inline-end;
 }
 footer {
   background-color: lightgray;
@@ -285,6 +286,7 @@ a:-webkit-any-link {
 #feature-home {
   padding-bottom: 50px;
   padding-top: 50px;
+  display: flex;
 }
 .row-gray {
   background-color: #EDEDED;
