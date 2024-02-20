@@ -259,3 +259,26 @@ a:-webkit-any-link {
 .text-center {
   text-align: center;
 }
+
+#new-trips {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#new-trips td, #new-trips th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#new-trips tr:nth-child(even){background-color: #f2f2f2;}
+
+#new-trips tr:hover {background-color: #ddd;}
+
+#new-trips th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
