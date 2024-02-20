@@ -263,7 +263,7 @@ a:-webkit-any-link {
 #new-trips {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
 }
 
 #new-trips td, #new-trips th {
