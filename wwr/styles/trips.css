@@ -220,7 +220,6 @@ img {
 footer {
   background-color: lightgray;
   padding: 2px 5px;
-  margin-top: 10rem;
   display: flex;
   justify-content:space-between;
   align-items: center;
@@ -341,10 +340,32 @@ body {
 .herodiv {
 	margin: 10px auto;
 	position: relative;
+
+}
+
+.herodiv {
+  color: blue;
+  background-color: darkkhaki;
 }
 
 .herodiv img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.stats {
+	position: absolute;
+	top: 2px;
+	padding: 0.65rem;
+	opacity: 0.8;
+  text-align: center;
+}
+.myimages {
+  width: 400px;
+  height: 300px;
+}
+
+* {
+  box-sizing: border-box;
 }
