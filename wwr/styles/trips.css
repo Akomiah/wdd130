@@ -282,3 +282,11 @@ a:-webkit-any-link {
   background-color: #04AA6D;
   color: white;
 }
+#feature-home {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.row-gray {
+  background-color: #EDEDED;
+  padding: 20px 0px;
+}
