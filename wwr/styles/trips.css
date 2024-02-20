@@ -305,6 +305,7 @@ a:-webkit-any-link {
 .row-gray {
   background-color: #EDEDED;
   padding: 20px 0px;
+  background-clip: padding-box;
 }
 @media (max-width: 767px)
 body > section {
