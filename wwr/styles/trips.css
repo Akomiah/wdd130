@@ -361,11 +361,3 @@ body {
 	opacity: 0.8;
   text-align: center;
 }
-.myimages {
-  width: 400px;
-  height: 300px;
-}
-
-* {
-  box-sizing: border-box;
-}
