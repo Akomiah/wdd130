@@ -345,6 +345,8 @@ body {
 .herodiv {
   color: blue;
   background-color: darkkhaki;
+  border: outset;
+  padding: 25px 0px;
 }
 
 .herodiv img {
