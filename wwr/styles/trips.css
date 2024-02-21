@@ -307,10 +307,7 @@ a:-webkit-any-link {
   padding: 20px 0px;
   background-clip: padding-box;
 }
-@media (max-width: 767px)
-body > section {
-  padding: 30px 0;
-}
+
 body > section {
   padding: 70px 0;
 }
@@ -333,10 +330,6 @@ user agent stylesheet
 div {
   display: block;
 }
-@media (max-width: 767px)
-body {
-  font-size: 16px;
-}
 
 .herodiv {
 	margin: 10px auto;
@@ -357,5 +350,3 @@ body {
 	object-fit: cover;
   float: left;
 }
-
-
