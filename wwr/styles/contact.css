@@ -13,17 +13,13 @@
     background-color: lightblue;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
-  }
+
   h2 {
     text-align: center;
   }
   hr {
     height: 3px;
     margin: 35px 0;
-    background: var(--accent1-color);
   }
   header {
     margin: 1px;
@@ -72,13 +68,6 @@
     font-weight: 700;
     text-decoration: underline;
   }
-
-  header > h1, header > h2 {
-    color: var(--headline-color-on-color);
-  }
-  p {
-    font-family: var(--paragraph-font);
-  }
  
   nav {
     line-height: 3em;
@@ -104,7 +93,6 @@
     flex-flow: column;
     padding: 5px;
     max-width: 220rem;
-    margin: revert-layer;
   }
   
   img {
@@ -217,7 +205,7 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+  .column, input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
