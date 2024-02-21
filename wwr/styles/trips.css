@@ -3,7 +3,7 @@
 main {
   background-color: darkgray;
 }
-/* new design */
+
 header {
   margin: 1px;
   display: grid;
@@ -73,10 +73,6 @@ html {
     padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
-}
-
-user agent stylesheet div {
-    display: block;
 }
 
 .pull-right {
@@ -243,7 +239,7 @@ a:-webkit-any-link {
   padding: 8px;
 }
 
-#new-trips tr:nth-child(even){
+#new-trips tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
