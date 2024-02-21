@@ -233,6 +233,7 @@ input[type=submit]:hover {
   background: url(https://adventures.is/media/152263/rafting-in-hvita.jpg); 
   background-size: cover;
   height: 450px;
+  width: 100%;
   padding: 75px 0 65px 0;
 }
 
@@ -253,7 +254,7 @@ input[type=submit]:hover {
   }
 .explore h2 {
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 32px;
     color: mediumvioletred;
     font-weight: 700;
     padding-bottom: 24px;
@@ -358,8 +359,12 @@ body > section {
 }
 
 .review-wrap, .hero-wrap {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid #444;
   border-radius: 4px;
   color: #fff;
+  padding: 15px;
+  float: right;
   font-style: italic;
 }
 
@@ -368,4 +373,34 @@ body > section {
   font-size: xx-large;
   background-color: crimson;
   font-weight: bolder;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
