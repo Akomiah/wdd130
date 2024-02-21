@@ -213,10 +213,6 @@ footer .social img {
   height: 300px;
   float: inline-end;
 }
-section {
-  box-sizing: border-box;
-  width: auto;
-}
 
 .right {
   float: right;
@@ -287,7 +283,6 @@ input[type=submit]:hover {
 
 .explore {
   background: url(https://www.revv.co.in/blogs/wp-content/uploads/2020/08/rafting_image8.jpg); 
-  background-repeat: no-repeat center center;
   background-size: cover;
   height: 450px;
   width: 100%;
