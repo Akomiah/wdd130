@@ -1,3 +1,5 @@
+
+
 main {
   background-color: darkgray;
 }
@@ -28,7 +30,7 @@ body {
     line-height: 22px;
 }
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
     color: #333;
@@ -37,43 +39,23 @@ body {
 body {
     margin: 0;
 }
-*, *:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
-user agent stylesheet
-body {
+
+user agent stylesheet {
     display: block;
     margin: 8px;
 }
 
-injected stylesheet
-:host, :root {
+injected stylesheet :host, :root {
     --rem: 16;
 }
 
 html {
     font-size: 62.5%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 html {
     font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-*, *:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 .explore {
@@ -92,13 +74,8 @@ html {
     margin-right: auto;
     margin-left: auto;
 }
-*, *:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-user agent stylesheet
-div {
+
+user agent stylesheet div {
     display: block;
 }
 
@@ -172,10 +149,6 @@ a.btn-warning {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
   user-select: none;
 }
 
@@ -254,7 +227,6 @@ footer {
 }
 
 a:-webkit-any-link {
-  color: -webkit-link;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -271,9 +243,13 @@ a:-webkit-any-link {
   padding: 8px;
 }
 
-#new-trips tr:nth-child(even){background-color: #f2f2f2;}
+#new-trips tr:nth-child(even){
+  background-color: #f2f2f2;
+}
 
-#new-trips tr:hover {background-color: #ddd;}
+#new-trips tr:hover {
+  background-color: #ddd;
+}
 
 #new-trips th {
   padding-top: 12px;
@@ -297,11 +273,6 @@ a:-webkit-any-link {
   padding-top: 50px;
 }
 
-.feature-wrap {
-  margin-bottom: 35px;
-  overflow: hidden;
-}
-
 .row-gray {
   background-color: #EDEDED;
   padding: 20px 0px;
@@ -319,16 +290,6 @@ body > section {
   border: none;
   min-height: 200px;
   padding: 10px 20px;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-user agent stylesheet
-div {
-  display: block;
 }
 
 .herodiv {
