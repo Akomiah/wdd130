@@ -1,28 +1,6 @@
 /* Add @import for the chosen fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&family=Lobster&display=swap');
 
-:root {
-    /* change the values below to your colors from your palette */
-    --primary-color: #d62323   ;
-    --secondary-color: #022668 ;
-    --accent1-color: #49d811;
-    --accent2-color: white;
-  
-    /* change the values below to your chosen font(s) */
-    --heading-font: "Montserrat", sans-serif;
-    --paragraph-font: Georgia, serif;
-  
-    
-    --headline-color-on-white: #040404;   
-    --headline-color-on-color: rgb(0, 0, 0); 
-    --paragraph-color-on-white: #396E94; 
-    --paragraph-color-on-color: white; 
-    --nav-link-color: #022668 ;
-    --nav-background-color: #d18181;
-    --nav-hover-link-color: rgb(250, 187, 0);
-    --nav-hover-background-color: #022668;
-  }
-  
   body {
     margin: 1em;
     font-size: 18px;
@@ -401,4 +379,29 @@ body > section {
   border: none;
   min-height: 200px;
   padding: 10px 20px;
+}
+
+.col-sm-4 {
+  position: relative;
+  padding-bottom: 20px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.review-wrap, .hero-wrap {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px;
+  float: right;
+  font-style: italic;
+}
+
+.review-wrap a {
+  color: black;
+  font-size: xx-large;
+  background-color: crimson;
+  font-weight: bolder;
 }
